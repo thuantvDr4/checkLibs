@@ -46,7 +46,12 @@ const Main =()=>{
             </Placeholder>
 
             {/*Todo:-----> ShimmerPlaceHolder*/}
-            <ShimmerPlaceHolder autoRun={true} />
+            <ShimmerPlaceHolder autoRun={true} visible={false}>
+                <Text>
+                    Wow, awesome here.
+                </Text>
+            </ShimmerPlaceHolder>
+
             <ShimmerPlaceHolder autoRun={true} visible={isLoading}>
                 <Text>
                     Wow, awesome here.
