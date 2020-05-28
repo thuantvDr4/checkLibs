@@ -1,0 +1,11 @@
+// vn.json
+{
+  "login": {
+    "welcome": "Xin chào {{name}} đến với ứng dụng của chúng tôi!",
+    "login_button": "Đăng nhập",
+    "signup_button": "Đăng ký"
+  },
+  "user_profile": {
+    "title": "Thông tin cá nhân"
+  }
+}
