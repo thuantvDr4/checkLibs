@@ -79,6 +79,8 @@ target 'checkLibs' do
 
   pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
 
+  pod 'react-native-sqlite-storage', :path => '../node_modules/react-native-sqlite-storage'
+
   target 'checkLibsTests' do
     inherit! :complete
     # Pods for testing
